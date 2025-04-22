@@ -1,0 +1,6 @@
+teddy_id,attendance_time,status
+1,2025-04-01 08:00:00,Present
+2,2025-04-01 08:05:00,Absent
+3,2025-04-01 08:10:00,Present
+4,2025-04-01 08:15:00,Present
+5,2025-04-01 08:20:00,Present

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e2a6e6ef237d647f8c054c27459a0e95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e2a6e6ef237d647f8c054c27459a0e95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e2a6e6ef237d647f8c054c27459a0e95 = L.map(
+                "map_e2a6e6ef237d647f8c054c27459a0e95",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b5e9e5d6fd1d5fb407cbb3b1b1f669b9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b5e9e5d6fd1d5fb407cbb3b1b1f669b9.addTo(map_e2a6e6ef237d647f8c054c27459a0e95);
+        
+    
+            var marker_2aa5e3cddab719c95722607941393353 = L.marker(
+                [28.7041, 77.1025],
+                {
+}
+            ).addTo(map_e2a6e6ef237d647f8c054c27459a0e95);
+        
+    
+            var icon_4468c06af171a73481d3397456b9b9be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e30f78dc58cd19f483bc8310c4ed534e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abd91b123da9bccb7491c4dc311bcbd5 = $(`<div id="html_abd91b123da9bccb7491c4dc311bcbd5" style="width: 100.0%; height: 100.0%;">Order ID: 1<br>City: Delhi</div>`)[0];
+                popup_e30f78dc58cd19f483bc8310c4ed534e.setContent(html_abd91b123da9bccb7491c4dc311bcbd5);
+            
+        
+
+        marker_2aa5e3cddab719c95722607941393353.bindPopup(popup_e30f78dc58cd19f483bc8310c4ed534e)
+        ;
+
+        
+    
+    
+                marker_2aa5e3cddab719c95722607941393353.setIcon(icon_4468c06af171a73481d3397456b9b9be);
+            
+    
+            var marker_c67c30cc2d10fe3f7553a2b6e5f4070a = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(map_e2a6e6ef237d647f8c054c27459a0e95);
+        
+    
+            var icon_c6522fe01deb1e4b8d1b9011510609a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3078b961230c81f6c82230d12fb78f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eba50933e88c82cde968238dfa72f39 = $(`<div id="html_4eba50933e88c82cde968238dfa72f39" style="width: 100.0%; height: 100.0%;">Order ID: 2<br>City: Mumbai</div>`)[0];
+                popup_d3078b961230c81f6c82230d12fb78f6.setContent(html_4eba50933e88c82cde968238dfa72f39);
+            
+        
+
+        marker_c67c30cc2d10fe3f7553a2b6e5f4070a.bindPopup(popup_d3078b961230c81f6c82230d12fb78f6)
+        ;
+
+        
+    
+    
+                marker_c67c30cc2d10fe3f7553a2b6e5f4070a.setIcon(icon_c6522fe01deb1e4b8d1b9011510609a9);
+            
+    
+            var marker_f606b9a52025e03b7a31082ec0bd1c3e = L.marker(
+                [22.5726, 88.3639],
+                {
+}
+            ).addTo(map_e2a6e6ef237d647f8c054c27459a0e95);
+        
+    
+            var icon_acbc435c0781d5a7e5c4b3b6f1e730aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3f7c89153397d30ecea1bfef7c0d873 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ec7ba1296f4a99c78f4e96290978425 = $(`<div id="html_5ec7ba1296f4a99c78f4e96290978425" style="width: 100.0%; height: 100.0%;">Order ID: 3<br>City: Kolkata</div>`)[0];
+                popup_b3f7c89153397d30ecea1bfef7c0d873.setContent(html_5ec7ba1296f4a99c78f4e96290978425);
+            
+        
+
+        marker_f606b9a52025e03b7a31082ec0bd1c3e.bindPopup(popup_b3f7c89153397d30ecea1bfef7c0d873)
+        ;
+
+        
+    
+    
+                marker_f606b9a52025e03b7a31082ec0bd1c3e.setIcon(icon_acbc435c0781d5a7e5c4b3b6f1e730aa);
+            
+    
+            var marker_08cbcaf3a88257b9c4fa8927bc152dae = L.marker(
+                [12.9716, 77.5946],
+                {
+}
+            ).addTo(map_e2a6e6ef237d647f8c054c27459a0e95);
+        
+    
+            var icon_faef5a69dfff0cf06960aa5e75c83669 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62b5edadcb308fd3b165c2a76042048e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba8ea7bcbb8a70de088c1d8035f272a6 = $(`<div id="html_ba8ea7bcbb8a70de088c1d8035f272a6" style="width: 100.0%; height: 100.0%;">Order ID: 4<br>City: Bangalore</div>`)[0];
+                popup_62b5edadcb308fd3b165c2a76042048e.setContent(html_ba8ea7bcbb8a70de088c1d8035f272a6);
+            
+        
+
+        marker_08cbcaf3a88257b9c4fa8927bc152dae.bindPopup(popup_62b5edadcb308fd3b165c2a76042048e)
+        ;
+
+        
+    
+    
+                marker_08cbcaf3a88257b9c4fa8927bc152dae.setIcon(icon_faef5a69dfff0cf06960aa5e75c83669);
+            
+    
+            var marker_81a0305fa8987697e062a65f0ffa7582 = L.marker(
+                [13.0827, 80.2707],
+                {
+}
+            ).addTo(map_e2a6e6ef237d647f8c054c27459a0e95);
+        
+    
+            var icon_5c36767abe98a48b57e27b49afbc472c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a5a49fb47280704736016a5cd4cbcee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be3f56b6a12d24231695bdcd621ee9de = $(`<div id="html_be3f56b6a12d24231695bdcd621ee9de" style="width: 100.0%; height: 100.0%;">Order ID: 5<br>City: Chennai</div>`)[0];
+                popup_2a5a49fb47280704736016a5cd4cbcee.setContent(html_be3f56b6a12d24231695bdcd621ee9de);
+            
+        
+
+        marker_81a0305fa8987697e062a65f0ffa7582.bindPopup(popup_2a5a49fb47280704736016a5cd4cbcee)
+        ;
+
+        
+    
+    
+                marker_81a0305fa8987697e062a65f0ffa7582.setIcon(icon_5c36767abe98a48b57e27b49afbc472c);
+            
+</script>
+</html>
