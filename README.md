@@ -24,7 +24,7 @@ An industrial-level AI/ML project that simulates smart logistics management for 
 - **ML/AI**: Isolation Forest, XGBoost, LSTM, Prophet, SHAP
 - **Visualization**: Plotly, Streamlit, Folium
 - **Geospatial**: Geopy, GPS data simulation
-- **Fraud Detection**: Neo4j (graph-based), Isolation Forest (statistical)
+- **Fraud Detection**: Graph-based, Isolation Forest (statistical)
 - **Others**: Email API, OpenCV, YOLO (optional), Blockchain-ready structure
 
 ---
@@ -36,7 +36,7 @@ An industrial-level AI/ML project that simulates smart logistics management for 
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](dashboard_screenshot.png)
+![Dashboard Screenshot](Screenshot(605).png)
 
 - **Tab 1**: Attendance log of teddy bears (Present/Absent)
 - **Tab 2**: Delivery delays with Plotly histogram
